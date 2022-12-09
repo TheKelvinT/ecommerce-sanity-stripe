@@ -8,24 +8,21 @@ const FooterBanner = ({ footerBanner: { discount, largeText1, largeText2, saleTi
       <div className='banner-desc'>
         <div className='left'>
         <p>{discount}</p>
-        <h3>{largeText1}</h3>
-        <h3>{largeText2}</h3>
+        <h3>YEAR-END</h3>
+        <h3>SALE</h3>
         <p>{saleTime}</p>
         </div>
         <div className='right'>
             <p>{smallText}</p>
-            <h3>{midText}</h3>
-            <p>{desc}</p>
+            <h3>Value Buy</h3>
+            <p>Fastest Growing Audio Brand in the world! </p>
             <Link href={`/product/${product}`}>
         <button type='button'>{buttonText}</button>
        </Link>
         </div>
-       
       </div>
-
       <img src={urlFor(image)} alt="" className='footer-banner-image'/>
     </div>
   )
 }
-
 export default FooterBanner

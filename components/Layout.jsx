@@ -8,14 +8,13 @@ const Layout = ({ children }) => {
   return (
     <div className='layout'>
       <Head>
-        <title>KelvinT Store</title>
+        <title>SoniX Gear</title>
       </Head>
       <header>
         <Navbar />
       </header>
       <main className='main-container'>
         {children}
- 
       </main>
       <footer>
         <Footer/>
